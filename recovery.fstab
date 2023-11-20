@@ -6,8 +6,7 @@
 /data           f2fs    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/userdata                           flags=encryptable=footer
 /product        ext4    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/product                        flags=backup=1;wipeingui
 /product_image  emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/product                        flags=backup=1
-/recovery       emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/recovery
-/system_root    ext4    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/system
+/system_ext    ext4    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/system                        flags=backup=1;wipeingui;flashimg=1
 /system_image   emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/system
 /vendor         ext4    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/vendor                         flags=backup=1;wipeingui
 /vendor_image   emmc    /dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/vendor                         flags=backup=1
