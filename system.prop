@@ -2,8 +2,8 @@
 #ro.sf.lcd_density=176
 #ro.sf.lcd_width=54
 #ro.sf.lcd_height=96
-ro.product.hardware=ums312_2h10
-ro.vendor.audio.product.hardware=ums312_2h10
+ro.product.hardware=ums312_2h10_go_32b
+ro.vendor.audio.product.hardware=ums312_2h10_go_32b
 # Set Opengl ES Version
 #ro.opengles.version=196609
 
@@ -147,7 +147,7 @@ ro.vendor.modem.wcn.id=1
 ro.vendor.modem.wcn.count=1
 ro.vendor.modem.gnss.diag=/dev/slog_gnss
 ro.vendor.wcn.gpschip=marlin3lite
-ro.sf.lcd_density=176
+ro.sf.lcd_density=320
 ro.vendor.sf.lcd_width=54
 ro.vendor.sf.lcd_height=96
 ro.opengles.version=196610
@@ -156,7 +156,7 @@ ro.vendor.camera.dualcamera_cali_enable=1
 ro.vendor.camera.dualcamera_cali_time=3
 persist.sys.vilte.socket=ap
 ro.hardware.keystore=sprdtrusty
-ro.vendor.keybox.id.value=SPRD
+ro.vendor.keybox.id.value=G_Max_2_SE_64
 persist.vendor.cam.ba.blur.version=6
 persist.vendor.cam.fr.blur.version=1
 persist.vendor.cam.api.version=0
