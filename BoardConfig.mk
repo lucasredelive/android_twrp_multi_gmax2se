@@ -27,9 +27,9 @@ TARGET_NO_BOOTLOADER := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 # Prebuilt 2plus kernel
-TARGET_PREBUILT_KERNEL := device/retroid/pocket2plus/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := device/retroid/pocket2plus/kernel
 # Prebuilt 2plus dtbo
-BOARD_PREBUILT_DTBOIMAGE := device/retroid/pocket2plus/prebuilt/dtbo.img
+BOARD_PREBUILT_DTBOIMAGE := device/retroid/pocket2plus/dtbo.img
 # Include the prebuilt recovery dtbo
 BOARD_INCLUDE_RECOVERY_DTBO := true
 
